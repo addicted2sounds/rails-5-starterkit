@@ -50,6 +50,7 @@ group :development do
   gem 'web-console', github: 'rails/web-console'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'html2slim'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
