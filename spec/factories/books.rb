@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :book do
-    title "MyString"
-    price "9.99"
+    title { Faker::Book.title }
+    price { Faker::Commerce.price }
   end
 end
