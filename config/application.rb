@@ -16,6 +16,9 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+# Remove this line to turn on deprecation warnings
+ActiveSupport::Deprecation.silenced = true
+
 module Rails5Starterkit
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
